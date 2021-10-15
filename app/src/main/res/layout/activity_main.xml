@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACACAC"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/easy"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:onClick="difficultyEasy"
+            android:text="@string/easy"
+            android:textColor="#576834"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/hard"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:onClick="difficultyHard"
+            android:text="@string/hard"
+            android:textColor="#703838"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/try_to_guess"
+        android:textColor="#4D4D4D" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="Input your number from 1 to 100"
+        android:inputType="number"
+        android:textColor="@color/white"
+        tools:ignore="LabelFor" />
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:background="@drawable/edited_button"
+        android:onClick="onClick"
+        android:text="@string/input_value"
+        android:textColor="#75A1A1"
+        tools:ignore="UsingOnClickInXml" />
+
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edited_button"
+        android:onClick="exit"
+        android:text="@string/exit"
+        android:textColor="#75A1A1"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="input_value">Input</string>
+    <string name="try_to_guess">Guess the number</string>
+    <string name="behind">It is too less</string>
+    <string name="ahead">It is too much</string>
+    <string name="hit">It is right</string>
+    <string name="error">Incorrect value</string>
+    <string name="range_error">Value is out of range</string>
+    <string name="exit">exit</string>
+    <string name="easy">Easy</string>
+    <string name="hard">hard</string>
+    <string name="difficulty_easy">Now difficulty is easy</string>
+    <string name="difficulty_hard">Now difficulty is hard</string>
+    <string name="empty_text" />
+</resources>
