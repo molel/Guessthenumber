@@ -8,35 +8,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/easy"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:onClick="difficultyEasy"
-            android:text="@string/easy"
-            android:textColor="#576834"
-            tools:ignore="UsingOnClickInXml" />
-
-        <Button
-            android:id="@+id/hard"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:onClick="difficultyHard"
-            android:text="@string/hard"
-            android:textColor="#703838"
-            tools:ignore="UsingOnClickInXml" />
-
-    </LinearLayout>
-
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
@@ -62,18 +33,6 @@
         android:background="@drawable/edited_button"
         android:onClick="onClick"
         android:text="@string/input_value"
-        android:textColor="#75A1A1"
-        tools:ignore="UsingOnClickInXml" />
-
-
-    <Button
-        android:id="@+id/exit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
-        android:background="@drawable/edited_button"
-        android:onClick="exit"
-        android:text="@string/exit"
         android:textColor="#75A1A1"
         tools:ignore="UsingOnClickInXml" />
 

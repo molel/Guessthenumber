@@ -7,10 +7,12 @@
     <string name="hit">It is right</string>
     <string name="error">Incorrect value</string>
     <string name="range_error">Value is out of range</string>
-    <string name="exit">exit</string>
+    <string name="exit">Exit</string>
     <string name="easy">Easy</string>
-    <string name="hard">hard</string>
+    <string name="hard">Hard</string>
     <string name="difficulty_easy">Now difficulty is easy</string>
     <string name="difficulty_hard">Now difficulty is hard</string>
     <string name="empty_text" />
+    <string name="restart">Restart</string>
+    <string name="restarted">\nGame is restarted</string>
 </resources>
